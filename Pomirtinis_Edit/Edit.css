@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search {
+    margin-bottom: 20px;
+  }
+  
+  .search input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .search button[type="submit"] {
+    width: 25%;
+    padding: 8px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .view table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .view th, .view td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .view th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .view td button {
+    padding: 8px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .edit {
+    display: none;
+    margin-bottom: 20px;
+  }
+  
+  .edit h2 {
+    margin-bottom: 10px;
+  }
+  
+  .edit label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .edit input[type="text"], .edit input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .edit button[type="submit"] {
+    padding: 8px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
