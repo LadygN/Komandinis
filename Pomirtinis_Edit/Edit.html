@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pamirtinių gyvenimų peržiūra ir redagavimas</title>
+    <link rel="stylesheet" href="Edit.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="search">
+        <input type="text" placeholder="Ieškoti">
+        <button type="submit">Ieškoti</button>
+      </div>
+      <div class="view">
+        <table>
+          <thead>
+            <tr>
+              <th>Vardas</th>
+              <th>Pavardė</th>
+              <th>Gimimo data</th>
+              <th>Mirties data</th>
+              <th>Veiksmai</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Jonas</td>
+              <td>Petraitis</td>
+              <td>1990-05-01</td>
+              <td>2022-03-12</td>
+              <td>
+                <button class="edit">Redaguoti</button>
+                <button class="delete">Ištrinti</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Marytė</td>
+              <td>Kazokaitė</td>
+              <td>1965-11-17</td>
+              <td>2021-07-23</td>
+              <td>
+                <button class="edit">Redaguoti</button>
+                <button class="delete">Ištrinti</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="edit">
+        <h2>Redaguoti pamirtinio gyvenimo informaciją</h2>
+        <form>
+          <label for="name">Vardas</label>
+          <input type="text" id="name" name="name" required>
+          <label for="surname">Pavardė</label>
+          <input type="text" id="surname" name="surname" required>
+          <label for="birthdate">Gimimo data</label>
+          <input type="date" id="birthdate" name="birthdate" required>
+          <label for="deathdate">Mirties data</label>
+          <input type="date" id="deathdate" name="deathdate" required>
+          <button type="submit">Išsaugoti</button>
+        </form>
+      </div>
+    </div>
+    <script src="Edit.js"></script>
+  </body>
+</html>
