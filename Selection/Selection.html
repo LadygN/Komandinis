@@ -32,7 +32,23 @@
       <img src="Photos/gyvenamoji vieta/Gyvenamoji vieta_namelis medyje.jpeg" alt="World 4" data-title="World 4" data-description="This is the description of World 4.">
       <img src="Photos/gyvenamoji vieta/Gyvenamoji vieta_standartinis namas.jpg" alt="World 5" data-title="World 5" data-description="This is the description of World 5.">
     </div>
-
+    <div>
+      <h2>Kviesti draugus</h2>
+      <form>
+        <label for="friendName">Draugo vardas:</label>
+        <input type="text" id="friendName" name="friendName"><br><br>
+        <label for="friendEmail">Draugo el. paštas:</label>
+        <input type="email" id="friendEmail" name="friendEmail"><br><br>
+        <input type="submit" value="Kviesti draugą">
+      </form>
+    </div>
+    <div>
+      <h2>Papildoma paslauga</h2>
+      <form>
+        <input type="checkbox" id="additionalServices" name="additionalServices" value="1">
+        <label for="additionalServices">600 € papildomas paketas</label><br><br>
+      </form>
+    </div>
     <div id="popup" class="hidden">
       <div id="popupContent">
         <h2 id="title"></h2>
@@ -41,7 +57,11 @@
         <button id="closeButton">Pasirinkti</button>
       </div>
     </div>
-
+    <button id="myButton">Baigti pasirinkimus</button>
+    <div id="myPopup">
+      <p>Pasirinkimai issaugoti</p>
+    </div>
     <script src="Selection.js"></script>
+    
   </body>
 </html>

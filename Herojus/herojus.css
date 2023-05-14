@@ -1,0 +1,66 @@
+#pasauliai {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .pasaulis {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .pasaulis img {
+    max-width: 100%;
+  }
+  
+  .pasaulis h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .pasaulis p {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .pasaulis button {
+    margin-right: 5px;
+  }
+  
+  #pasirinktas-pasaulis {
+    display: none;
+    text-align: center;
+  }
+  
+  #pasirinktas-pasaulis img {
+    max-width: 50%;
+    margin-bottom: 10px;
+  }
+  
+  #pasirinktas-pasaulis h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  #grizti {
+    margin-top: 10px;
+  }
+  body {
+    margin: 0;
+    background-color: #AFD8A7;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  #baigti {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
