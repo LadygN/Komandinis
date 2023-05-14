@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registracija</title>
+	<link href="css/registration.css" rel="stylesheet" type="text/css" />
+	
+</head>
+<body>
+	<form action="registracija.php" method="post">
+		<h2>Registracija</h2>
+		<label for="vardas">Vardas:</label>
+		<input type="text" id="vardas" name="vardas" required>
+		<label for="pavarde">Pavardė:</label>
+		<input type="text" id="pavarde" name="pavarde" required>
+		<label for="email">El. paštas:</label>
+		<input type="email" id="email" name="email" required>
+		<label for="slaptazodis">Slaptažodis:</label>
+		<input type="password" id="slaptazodis" name="slaptazodis" required>
+		<label for="pakartotas_slaptazodis">Pakartokite slaptažodį:</label>
+		<input type="password" id="pakartotas_slaptazodis" name="pakartotas_slaptazodis" required>
+		<input type="submit" value="Registruotis">
+	</form>
+	<script src="registration.js"></script>
+</body>
+</html>
